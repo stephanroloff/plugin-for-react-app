@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.wp-block-create-block-root-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+}

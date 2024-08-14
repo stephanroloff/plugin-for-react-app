@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/root-block",
+	"version": "0.1.0",
+	"title": "App Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Here is the whole App",
+	"supports": {
+		"align": true
+	},
+	"attributes": {
+	},
+	"textdomain": "gutenpride",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-frontend.css",
+	"script": "file:./script.js",
+	"viewScript": "file:./frontend.js",
+	"render": "file:./render.php"
+}

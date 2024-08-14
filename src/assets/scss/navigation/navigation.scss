@@ -1,0 +1,17 @@
+nav{
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                outline: none;
+
+                &.active{
+                    text-decoration: underline;
+                }
+                &:focus{
+
+                }
+            }
+        }
+    }
+}

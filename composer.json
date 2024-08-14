@@ -1,0 +1,10 @@
+{
+    "name": "meraki/plugin-scaffold",
+    "autoload": {
+        "psr-4": {
+            "PluginScaffold\\": "classes/",
+            "OtherNamespace\\": "classes/OtherFile"
+        }
+    },
+    "require": {}
+}
